@@ -61,7 +61,7 @@ gsap.from("#about-us img, #about-us-in", {
         trigger:"#about-us",
         scroller:"body",
         // markers;true,
-        start:"top 70%",
+        start:"top 100%",
         end:"top 65%",
         scrub:1
     }
@@ -70,12 +70,12 @@ gsap.from("#about-us img, #about-us-in", {
 gsap.from(".card", {
     scale:0.8,
     opacity:0,
-    duration: 1,
+    duration: 0.1,
     stagger:0.1,
     scrollTrigger:{
         trigger:".card",
         scroller:"body",
-        // markers;true,
+        markers:false,
         start:"top 70%",
         end:"top 65%",
         scrub:1

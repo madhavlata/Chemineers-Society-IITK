@@ -233,7 +233,6 @@ video{
 }
 
 #cards-container{
-    /* background-color: red; */
     height: 60vh;
     display: flex;
     align-items: center;
@@ -247,7 +246,6 @@ video{
 .card{
     height: 80%;
     width: 24%;
-    /* background-color: blue; */
     border-radius: 10px;
     background-size: cover;
     background-position: center;
